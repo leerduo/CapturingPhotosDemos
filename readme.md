@@ -34,7 +34,7 @@
 > 注意的是：通过`getExternalFilesDir()`这个方法，用户卸载程序后，数据也被卸载。
 
 以时间戳创建文件:
-``java
+```java
  private File createImageFile() throws IOException {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + "_";
